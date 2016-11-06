@@ -25,3 +25,8 @@ g.tick text {
   font-size: 12px;
   fill: orangered;
 }
+
+g.hidden line, 
+g.hidden path {
+  display: none; 
+}
