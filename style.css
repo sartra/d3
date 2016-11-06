@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: sans-serif;
+  padding: 20px;
+  overflow: scroll;
+  width:5000px;  
+}
+
+line {
+  stroke: red;
+}
+
+g.group0 path,
+g.group0 circle {
+  stroke: red;
+  fill: none;
+}
+
+g.tick line {
+  stroke: #000000;
+}
+
+g.tick text {
+  font-size: 12px;
+  fill: orangered;
+}
